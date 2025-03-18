@@ -206,7 +206,36 @@
                     </div>
                 </div>
             </div>
-
+<!-- Add future predictions table -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary text-center rounded p-4">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h6 class="mb-0">Future Predictions for {{ticker_value}}</h6>
+                </div>
+                <div class="table-responsive">
+                    <table class="table text-start align-middle table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Predicted Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in future_data %}
+                                <tr>
+                                    <td>{{ item.Date }}</td>
+                                    <td>{{ item.Predicted_Price }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
             <!-- End of Main Content -->
 
 
@@ -215,10 +244,10 @@
                 <div class="bg-secondary rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Kumar Laxmikant</a>, All Right Reserved. 
+                            &copy; <a href="#">.</a>, 
                         </div>
                         <div class="col-12 col-sm-6 text-center text-sm-end">
-                            Designed By <a href="https://portfolio-website-azure-eta.vercel.app/">Kumar Laxmikant</a>
+                            Designed By <a href="/">vaibhav chaudhary</a>
                         </div>
                     </div>
                 </div>
