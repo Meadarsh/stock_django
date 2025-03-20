@@ -14,7 +14,7 @@ scipy==1.10.1
 joblib==1.4.2
 
 # Machine Learning
-tensorflow-cpu==2.16.1  # Lighter version for serverless deployment
+tensorflow-cpu==2.13.1  # Lighter version for serverless deployment
 
 # Visualization
 plotly==5.20.0
