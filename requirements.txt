@@ -22,7 +22,7 @@ plotly==5.20.0
 # Web Utilities
 beautifulsoup4==4.12.3
 requests==2.32.3
-qrcode==8.0
+qrcode==7.4.2
 
 # Database
 psycopg2-binary==2.9.9  # Fixed version for PostgreSQL compatibility
