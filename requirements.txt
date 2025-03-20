@@ -4,7 +4,7 @@ asgiref==3.8.1
 python-dateutil==2.9.0
 pytz==2025.1
 sqlparse==0.5.3
-whitenoise==6.9.0
+whitenoise==6.7.0
 
 # Data Processing
 numpy==1.26.0
