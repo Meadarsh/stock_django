@@ -1,5 +1,5 @@
 # Core Requirements
-Django==5.1.6
+Django==4.2.20
 asgiref==3.8.1
 python-dateutil==2.9.0
 pytz==2025.1
