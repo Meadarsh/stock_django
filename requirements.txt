@@ -1,13 +1,13 @@
 # Core Requirements
-Django==4.2.20
+Django==5.1.6
 asgiref==3.8.1
 python-dateutil==2.9.0
 pytz==2025.1
 sqlparse==0.5.3
-whitenoise==6.7.0
+whitenoise==6.9.0
 
 # Data Processing
-numpy==1.24.4
+numpy==1.26.0
 pandas==2.2.3
 scikit-learn==1.4.2
 scipy==1.13.0
